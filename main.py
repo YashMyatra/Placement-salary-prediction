@@ -9,7 +9,7 @@ import pickle
 import streamlit as st
 
 
-placement_model = pickle.load(open("C:/Users/Yash/OneDrive/Desktop/placement salary prediction/placement_data.sav", 'rb'))
+placement_model = pickle.load(open("placement_data.sav", 'rb'))
 
 # Streamlit app title
 st.title("Student Placement Prediction App")
